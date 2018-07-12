@@ -1,5 +1,5 @@
 import tokenize from '../tokenize';
-import { pretty } from './helpers';
+import { logJson } from '../helpers';
 
 describe('tokenize()', () => {
   it('matches bold text', () => {

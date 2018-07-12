@@ -1,6 +1,6 @@
 import tokenize from '../tokenize';
 import parse from '../parse';
-import { pretty } from './helpers';
+import { logJson } from '../helpers';
 
 const token = (type, value) => ({ type, value });
 

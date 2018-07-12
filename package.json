@@ -3,6 +3,7 @@
     "flow-typed:update": "yarn flow-typed install --overwrite --ignoreDeps dev"
   },
   "dependencies": {
+    "js-beautify": "^1.7.5",
     "uuid": "^3.3.2"
   },
   "devDependencies": {
@@ -16,11 +17,5 @@
     "flow-bin": "^0.76.0",
     "flow-typed": "^2.5.1",
     "jest": "^23.3.0"
-  },
-  "jest": {
-    "testPathIgnorePatterns": [
-      "/node_modules/",
-      "/src/__tests__/helpers.js"
-    ]
   }
 }
